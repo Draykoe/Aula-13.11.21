@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+
+  
+  background-color: #643d87;
+}
+
+body{
+    background-color: #643d87;;
+}
+
+
+button{
+    border-radius: 5px;
+    float:right;
+    padding: 9px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: orange;
+    color: white;
+}

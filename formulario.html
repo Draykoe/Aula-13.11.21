@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+
+    <header class="topo">
+        <section class="titulo">
+            <a href="">Esportes Magazine</a>
+       
+        </section>
+        <nav class="barra-nav">
+            <ul>
+                <li><a href="autoriza.html">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Promoções</a></li>
+                <li><a href="#">Esportes</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+
+
+
+
+
+    
+
+    <div id="box">
+
+        <h1>CADASTRO DE USUÁRIO</h1>
+        <br>
+
+<p>Nome completo</p>
+<input id="name" type="text" placeholder="Digite seu nome" name="Nome completo" size="40"/>
+<br>
+<br>
+
+<p>Apelido</p>
+<input id="nickname" type="text" placeholder="Digite seu apelido" name="Apelido" size="40"/>
+<br>
+<br>
+
+<p>Data de nascimento</p>
+<input id="date" type="text" placeholder="DIA" name="Dianascimento" size="10"/> / <input id="month" type="text" placeholder="MÊS" name="Mesnascimento" size="10"/> / <input id="year" type="text" placeholder="ANO" name="ANOnascimento" size="10"/>
+<br>
+<br>
+
+<p>CPF</p>
+<input id="cpf" type="text" placeholder="Digite seu CPF" name="CPF" size="20"/>
+<br>
+<br>
+
+<p>Time do Coração</p>
+<select id="team_id" class="time do coraçao">
+    <option id="1">Selectione um time</option>
+    <option id="2">Corinthians</option>
+    <option id="3">Palmeiras</option>
+    <option id="4">São Paulo</option>
+    <option id="5">Santos</option>
+    <option id="6">Não tenho time</option>
+</select>
+<br>
+<br>
+
+<p>Esportes de Interesse</p>
+<div class="form-check">
+<input type="checkbox" name="sport_1" id="sport_1">
+<label for="defaultcheck1">
+    Futebol
+</label>
+</div>
+
+<div class="form-check">
+    <input type="checkbox" name="sport_2" id="sport_2">
+    <label for="defaultcheck1">
+    Volei
+</label>
+</div>
+
+<div class="form-check">
+    <input type="checkbox" name="sport_3" id="sport_3">
+<label for="defaultcheck1">
+        Handball
+    </label>
+    </div>
+
+    <div class="form-check">
+        <input type="checkbox" name="sport_4" id="sport_4">
+<label for="defaultcheck1">
+            Natação
+        </label>
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" name="sport_5" id="sport_6">
+<label for="defaultcheck1">
+                Basquete
+            </label>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" name="sport_7" id="sport_7">
+<label for="defaultcheck1">
+                    Automobilismo
+                </label>
+                </div>
+
+                <div class="form-check">
+                    <input id="defaultcheck1" type="checkbox">
+                    <label for="defaultcheck1">
+                        Artes Marciais
+                    </label>
+                    </div>
+    <button id="enviar" type="submit"
+    onclick="return" validarcampos()" target=" _blank">Enviar</button>
+
+
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+#acordeon{
+    font-size: 14px; width:200px;
+}
+label, tr {
+    font-size: 14px; font-family: arial;
+}
+button, input[type="button"] {
+    font-size: 20px; font-family: arial;
+}
+table {
+    background-color: rgb(221, 243, 98);
+   
+}
+.tempo {
+    font-size: 10px; font-family: arial;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    color: blue;
+}
+
+form {
+    margin-top: 20px;
+}
+
+body, th, label, td  {
+    background-color: rgb(221, 243, 98);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
